@@ -94,6 +94,7 @@ public class CliCommands {
     }
 
     /**
+     * @param index The index of the group.
      * @return Name for a specific command group.
      */
     public String getGroupName(int index) {
@@ -138,7 +139,7 @@ public class CliCommands {
      *
      * @param index Index of the group in groupPointers.
      * @return List of all the commands in the group.
-     * @throws BadPointerForCommandGroupException
+     * @throws BadPointerForCommandGroupException The pointer does not point to a index on commands list.
      */
     public ArrayList<String> getCommandsForGroup(int index) throws BadPointerForCommandGroupException {
         if (index > -1) {

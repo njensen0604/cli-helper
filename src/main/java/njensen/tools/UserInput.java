@@ -18,6 +18,7 @@ public class UserInput {
      * then stores in for retrieval.
      *
      * @param message A message that will be prompted to the user.
+     * @param newLine Specify whether to use a new line or same line.
      */
     public void getInputFromUser(String message, boolean newLine) {
 

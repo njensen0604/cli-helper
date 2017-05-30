@@ -20,6 +20,7 @@ public class RunTerminalCommand {
      *
      * @param command An array with command to call and its arguments.
      * @return Text returned by the system.
+     * @throws BadCustomCommandGroupException A command failed run in the CLI.
      */
     public static String send(String[] command) throws BadCustomCommandGroupException {
 
